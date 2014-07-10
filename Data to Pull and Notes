@@ -1,0 +1,33 @@
+Team Data:
+
+http://www.footballdb.com/teams/nfl/indianapolis-colts/stats
+    May be easier to pull from than sportsdatabase, looks like it covers some of the same areas
+
+http://www.sportsdatabase.com/nfl/query?output=default&sdql=season+%3D+2013+and+team+%3D+Colts&submit=S+D+Q+L+%21
+    Includes sports odds, which could prove very useful as a validation measure
+    
+http://www.pro-football-reference.com/years/2013/
+    Tables at the bottom - raw team stats
+    By year
+    
+    http://www.pro-football-reference.com/years/2013/opp.htm
+        Defensive team stats - season
+    Schedule Tab on this site could have useful info -- number of turnovers/game by each team
+    
+    http://www.pro-football-reference.com/teams/clt/2014_roster.htm
+        Rosters for each team
+    
+Coaching Data:
+
+http://coachingroots.com/football/teams/arizona-cardinals/head-coaches
+    No wins/losses, doesn't seem to be well structured, not great history
+    
+http://www.databasefootball.com/coaches/coachpage.htm?coachid=DUNGYTON01
+    Would just need table w/ name attached
+    Records by season inc. separate playoff count
+    Data only up to 2010
+    
+Draft Data
+
+http://www.pro-football-reference.com/draft/
+    Checked out their pseudo-querying system. Only allowed for 300 results to be returned. Also exported in a less than ideal format but its not terrible

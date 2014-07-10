@@ -1,0 +1,14 @@
+Goals:
+
+    Primary:   Predictive model of individual player season performance (likely separate models by position)
+    Secondary: Predictive model of individual player game-by-game performance
+               Predictive model of game outcomes
+
+Top-line Methodology
+    1. Data gathering and cleaning
+    2. Initial statistical observations
+    3. Generate hypotheses 
+    4. Create appropriate datasets and generate relevant variables
+    5. Build model
+    6. Testing and refinement
+    7. Win fantasy football

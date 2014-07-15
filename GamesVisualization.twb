@@ -1,0 +1,2709 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook source-platform='win' version='8.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <!-- build 8200.14.0616.0146                                -->
+  <preferences>
+  </preferences>
+  <datasources>
+    <datasource caption='VisualizeGames Extract' inline='true' name='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\' version='8.3'>
+      <connection class='dataengine' dbname='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\' schema='Extract' tablename='Extract'>
+        <relation name='Extract (Extract.Extract)' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Week</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Week]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Week</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>21</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>1.0</statistic>
+              <statistic aggregation='Max' datatype='real'>22.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>34</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Day]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Day</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>7</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Fri&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Wed&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>14</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>147</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='datetime'>#2014-01-01 00:00:00#</statistic>
+              <statistic aggregation='Max' datatype='datetime'>#2014-12-30 00:00:00#</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>0</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;datetime&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Winner/tie</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Winner/tie]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Winner/tie</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>32</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona Cardinals&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Washington Redskins&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>63</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loser/tie</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Loser/tie]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Loser/tie</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>32</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona Cardinals&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Washington Redskins&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>64</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Home Team]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Home Team</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>32</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona Cardinals&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Washington Redskins&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>65</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Away Team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Away Team]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Away Team</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>32</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona Cardinals&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Washington Redskins&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>66</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PtsW</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[PtsW]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>PtsW</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>54</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>3.0</statistic>
+              <statistic aggregation='Max' datatype='real'>62.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>68</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PtsL</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[PtsL]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>PtsL</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>40</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>48.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>67</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YdsW</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[YdsW]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>YdsW</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>365</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>104.0</statistic>
+              <statistic aggregation='Max' datatype='real'>653.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>69</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOW</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[TOW]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>TOW</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>6.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>15</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YdsL</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[YdsL]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>YdsL</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>387</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>67.0</statistic>
+              <statistic aggregation='Max' datatype='real'>583.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>70</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOL</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[TOL]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>TOL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>8.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>21</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>2007.0</statistic>
+              <statistic aggregation='Max' datatype='real'>2013.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>16</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT Conference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HT Conference]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT Conference</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;AFC&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;NFC&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT Division</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HT Division]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT Division</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;East&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;West&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>10</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT ActiveYears</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HT ActiveYears]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT ActiveYears</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>18</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;1920-2014&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;2002-2014&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>30</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT W</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT W]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT W</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>29</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>79.0</statistic>
+              <statistic aggregation='Max' datatype='real'>730.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>47</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT L</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT L]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT L</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>113.0</statistic>
+              <statistic aggregation='Max' datatype='real'>716.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>51</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT T</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT T]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT T</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>42.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>39</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT W-L%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HT W-L%]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT W-L%</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.39200000000000002</statistic>
+              <statistic aggregation='Max' datatype='real'>0.57699999999999996</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>52</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT PlayoffsMade</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT PlayoffsMade]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT PlayoffsMade</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>24</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>2.0</statistic>
+              <statistic aggregation='Max' datatype='real'>31.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>43</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT SuperbowlOrLeagueChamp</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT SuperbowlOrLeagueChamp]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT SuperbowlOrLeagueChamp</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>10</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>13.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>26</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT Superbowls</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT Superbowls]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT Superbowls</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>6.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>17</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT ConferenceChamps</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT ConferenceChamps]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT ConferenceChamps</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>8.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>22</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HT City]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT City</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>31</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Atlanta&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Tampa&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>53</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[HT State]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT State</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>22</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Wisconsin&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>35</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT Conference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AT Conference]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT Conference</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;AFC&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;NFC&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT Division</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AT Division]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT Division</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;East&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;West&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>11</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT ActiveYears</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AT ActiveYears]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT ActiveYears</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>18</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;1920-2014&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;2002-2014&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>31</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT W</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT W]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT W</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>29</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>79.0</statistic>
+              <statistic aggregation='Max' datatype='real'>730.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>48</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT L</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT L]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT L</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>113.0</statistic>
+              <statistic aggregation='Max' datatype='real'>716.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>54</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT T</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT T]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT T</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>42.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>40</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT W-L%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AT W-L%]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT W-L%</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.39200000000000002</statistic>
+              <statistic aggregation='Max' datatype='real'>0.57699999999999996</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>55</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT PlayoffsMade</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT PlayoffsMade]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT PlayoffsMade</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>24</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>2.0</statistic>
+              <statistic aggregation='Max' datatype='real'>31.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>44</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT SuperbowlOrLeagueChamp</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT SuperbowlOrLeagueChamp]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT SuperbowlOrLeagueChamp</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>10</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>13.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>27</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT Superbowls</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT Superbowls]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT Superbowls</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>6.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>18</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT ConferenceChamps</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[AT ConferenceChamps]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT ConferenceChamps</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>8.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>23</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AT City]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT City</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>31</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Atlanta&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Tampa&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>56</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AT State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[AT State]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>AT State</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>22</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Wisconsin&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>36</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT Conference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT Conference]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT Conference</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;AFC&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;NFC&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>3</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT Division</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT Division]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT Division</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;East&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;West&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>12</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT ActiveYears</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT ActiveYears]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT ActiveYears</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>18</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;1920-2014&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;2002-2014&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>32</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT W</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT W]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT W</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>29</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>79.0</statistic>
+              <statistic aggregation='Max' datatype='real'>730.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>49</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT L</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT L]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT L</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>113.0</statistic>
+              <statistic aggregation='Max' datatype='real'>716.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>57</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT T</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT T]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT T</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>42.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>41</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT W-L%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WT W-L%]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT W-L%</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.39200000000000002</statistic>
+              <statistic aggregation='Max' datatype='real'>0.57699999999999996</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>58</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT PlayoffsMade</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT PlayoffsMade]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT PlayoffsMade</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>24</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>2.0</statistic>
+              <statistic aggregation='Max' datatype='real'>31.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>45</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT SuperbowlOrLeagueChamp</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT SuperbowlOrLeagueChamp]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT SuperbowlOrLeagueChamp</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>10</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>13.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>28</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT Superbowls</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT Superbowls]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT Superbowls</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>6.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>19</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT ConferenceChamps</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[WT ConferenceChamps]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT ConferenceChamps</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>8.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>24</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT City]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT City</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>31</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Atlanta&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Tampa&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>59</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WT State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WT State]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>WT State</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>22</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Wisconsin&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>37</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT Conference</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LT Conference]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT Conference</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;AFC&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;NFC&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT Division</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LT Division]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT Division</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>4</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;East&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;West&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>13</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT ActiveYears</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LT ActiveYears]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT ActiveYears</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>18</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;1920-2014&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;2002-2014&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>33</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT W</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT W]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT W</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>29</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>79.0</statistic>
+              <statistic aggregation='Max' datatype='real'>730.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>50</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT L</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT L]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT L</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>113.0</statistic>
+              <statistic aggregation='Max' datatype='real'>716.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>60</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT T</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT T]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT T</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>42.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>42</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT W-L%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LT W-L%]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT W-L%</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>31</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.39200000000000002</statistic>
+              <statistic aggregation='Max' datatype='real'>0.57699999999999996</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>61</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT PlayoffsMade</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT PlayoffsMade]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT PlayoffsMade</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>24</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>2.0</statistic>
+              <statistic aggregation='Max' datatype='real'>31.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>46</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT SuperbowlOrLeagueChamp</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT SuperbowlOrLeagueChamp]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT SuperbowlOrLeagueChamp</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>10</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>13.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>29</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT Superbowls</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT Superbowls]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT Superbowls</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>6.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>20</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT ConferenceChamps</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[LT ConferenceChamps]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT ConferenceChamps</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>8.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>25</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LT City]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT City</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>31</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Atlanta&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Tampa&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>62</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LT State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[LT State]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>LT State</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>22</approx-count>
+            <scale>2</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='binary' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;Arizona&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;Wisconsin&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;binary&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>38</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;wstr&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HT Win</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[HT Win]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>HT Win</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>5</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConfGame</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[ConfGame]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>ConfGame</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>6</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DivGame</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[DivGame]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>DivGame</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>7</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConfHTWin</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[ConfHTWin]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>ConfHTWin</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DivHTWin</remote-name>
+            <remote-type>4</remote-type>
+            <local-name>[DivHTWin]</local-name>
+            <parent-name>[Extract (Extract.Extract)]</parent-name>
+            <remote-alias>DivHTWin</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>9</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;float&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[AT City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+      </column>
+      <column datatype='string' name='[AT State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column caption='YdsMarginPerWin' datatype='real' name='[Calculation_2230714235318151]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_2260714235045025]' scope-isolation='false' />
+      </column>
+      <column caption='YdsMargin' datatype='real' name='[Calculation_2260714235045025]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[YdsW]-[YdsL]' scope-isolation='false' />
+      </column>
+      <column datatype='string' name='[HT City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+      </column>
+      <column datatype='string' name='[HT State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Massachusettes&quot;' value='&quot;Massachusetts&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='string' name='[LT City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+      </column>
+      <column datatype='string' name='[LT State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='real' name='[Season]' role='dimension' type='ordinal'>
+      </column>
+      <column datatype='string' name='[WT City]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+      </column>
+      <column datatype='string' name='[WT State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Massachusettes&quot;' value='&quot;Massachusetts&quot;' />
+        </semantic-values>
+      </column>
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\'>
+      <datasources>
+        <datasource caption='VisualizeGames Extract' name='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\' />
+      </datasources>
+      <datasource-dependencies datasource='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\'>
+        <column aggregation='Sum' datatype='real' name='[Season]' role='dimension' type='ordinal'>
+        </column>
+        <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:Season:ok]'>
+        <groupfilter function='level-members' level='[none:Season:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='Win % by Conference'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VisualizeGames Extract' name='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\' />
+          </datasources>
+          <datasource-dependencies datasource='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\'>
+            <column aggregation='Sum' datatype='real' name='[Season]' role='dimension' type='ordinal'>
+            </column>
+            <column datatype='string' name='[WT Conference]' role='dimension' type='nominal'>
+            </column>
+            <column datatype='string' name='[WT Division]' role='dimension' type='nominal'>
+            </column>
+            <column datatype='real' name='[WT W-L%]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[WT W-L%]' derivation='Avg' name='[avg:WT W-L%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[WT Conference]' derivation='None' name='[none:WT Conference:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WT Division]' derivation='None' name='[none:WT Division:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:Season:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' formula='constant' id='refline0' label-type='none' scope='per-table' value='0.5' value-column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' z-order='1' />
+          </pane>
+        </panes>
+        <rows>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]</rows>
+        <cols>([C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:WT Conference:nk] / [C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:WT Division:nk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Win % by State'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='VisualizeGames Extract' name='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\'>
+            <column aggregation='Sum' datatype='real' name='[Season]' role='dimension' type='ordinal'>
+            </column>
+            <column datatype='string' name='[WT State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Massachusettes&quot;' value='&quot;Massachusetts&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='real' name='[WT W-L%]' role='measure' type='quantitative'>
+            </column>
+            <column-instance column='[WT W-L%]' derivation='Avg' name='[avg:WT W-L%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Season]' derivation='None' name='[none:Season:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[WT State]' derivation='None' name='[none:WT State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:Season:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' palette='tableau-red-blue' type='interpolated' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.25999999046325684' />
+            <format attr='map-style' value='tableau-z-black' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' />
+              <lod column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:WT State:nk]' />
+              <geometry column='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[Latitude (generated)]</rows>
+        <cols>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[Longitude (generated)]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows>
+    <window class='schema' source-height='-1' />
+    <window auto-hidden='0' class='worksheet' maximized='0' name='Win % by Conference'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:Season:ok]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:Season:ok]</field>
+          <field>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:WT Conference:nk]</field>
+          <field>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[none:WT Division:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Win % by State'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde\].[avg:WT W-L%:qk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Win % by Conference' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Win % by State' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7EAAAOxAGVKw4b
+      AAAgAElEQVR4nOy96ZMr2XUn9ru5YgcKqO1VvbV39kqRFCmSkqghtYc0ipAiHLYVYYc/2P7o
+      f8F/g8MfHI6YkMMTtkNjxVijGZGiNBR3sbtJSuxm78vrt1W92rEjkev1h8S5uJnIBBIoFN7r
+      7veL6H5VBSCRyz33bL9zDvuLv/gLfnh4iDh838fR0RF83wdjDJzziffIMAwDnudB0zQwxmAY
+      BlzXBeccjuPM/Hwcqqoin8/DcRxxnGUhn89DURT0+30wxpDL5WBZlnidMSZ+TvreYrEI13Wh
+      aRoGg0Hm781yH5NQLBbR7/fn/tyDhqIoME0zcm/n/fz29jYURQEADIdDnJycRN7DGEOxWITj
+      OHAcB0B4v2q1Go6PjxEEAQzDgK7r4mfLssRz0w4PD3H79u2JL+eco9/vY29vb66TVlUVuVwO
+      jDGYponhcIjhcAjf92d+VtM0BEGAIAhQLpehaRo45+IYy4Kqqtje3sbe3h5UVUW5XIZlWfA8
+      D4VCAYqigHOOIAjQ7/dRq9XQbDbF50m4K5UK2u125u9dVAAqlQo6nc7cn3vQoMXZ6/UW+ryi
+      KHAcB4wxuK6L/f39TOsgl8tB0zT0ej3UajUwxqBpmjink5MTbG1todVqQZt28pZloVwuw/d9
+      8cVBEEz9ct/34bouyuUyXNdN3AEMwxDSKl9suVyGbdsYDAZQFAW+76Pf78/8znnh+744ZhAE
+      8DwPqqrCdV2oqioW6mAwEAIoI37uj5AOWZvOiyAIcOfOHaFps66D4XCIXC6HarUaOdbp6an4
+      vd1uo1QqpQsAADQaDTDG4Hkems0m+v1+4sNXFAWKosDzPADhAisWi/A8D47jRE6c1Fn88/l8
+      PvK3fr+PQqGQSXMsAjL7OOfo9XriQXHOhQDQ9aSpcDL56H2PsHwsqvmHwyE8z0O5XJ54LZfL
+      YTAYhBvttIMoigLGGHRdF8JgGAYMw5h4b6FQgK7rAEIBsG0b5XIZpVIJpmmK92maNrGodV0X
+      nzUMQwjdoqozC+K7CeccnHO02224rgvbtlEoFKYeQ1XVpWunTxKW6bct6xxUVcXu7q5Yb1MF
+      IP7Bq1evolKpCAeQdvMgCMAYi+ziR0dH6Ha7MAwDtVoN+XweuVwO5XJ5Qi06jhMRChKwi1hc
+      5BBNQ6/Xy+R3OI4z81ifdpzHBDovPM+D67qRv/m+j2azKTblqSZQHIqiCAe3Wq1iMBgIm58x
+      BkVRUCqVxA7abDZRKpWgqioAoF6vo9VqiUXjeZ64Qb1eD4ZhCAf0ojBPRGWWAOq6PlcU6BFW
+      D8/zwDlHoVBAsVhEo9GAaZpgjOHg4CC7BiAUi0Vcu3YNqqrCsiz4vi+kKQgC4UQC4Q7ZarWQ
+      z+fRaDSEWRQEgQivlstlseBp8V/krkph2mWAIl6P8PCCgiqqqmJnZyfy7FVVnV8AgLGdns/n
+      hV8gmzBkGvm+j1arBd/3YRgGTNNEtVrFxsYGCoVCRDtQvkAOWV0Eer0eKpXKUo7VarUu9Fwf
+      YXmgkKppmhgMBjg+Pka9Xp/PBJJRqVRQqVRweHgIz/MwHA6FLyCbMI7j4M6dOzBNUyy8YrGI
+      QqEAz/NgWRZM00QQBOCcw3XdmVGVXC63cHTAsiyoqgpVVZcSYQqCALquT9iaj/Bw4aRj4cT1
+      8LVn1zAcDtHv92Ga5uICQLv81tYWut0uNE3DcDhMjO8HQQDLsmBZFlqtFra2tmCaJnRdh6Io
+      ODw8zOzwmqYJ0zSF77EIlhld6na7qNfrGA6Hj/yBhxSKoiBQDbRtE6qqwjRNXL9+HbZtLy4A
+      8sErlYpInMkgx1he3LZt4/DwEFtbW8jn89B1Hevr67BtWyxoWYvQv4wxQY8g+gI54fS+89j2
+      8vfM+77hcIhSqQTG2FRBnpUJTrsG0zQTQ7Jpx4ofQ37fotnoRWGa5kSOR865JGEZPpr8nIrF
+      Ira3t7DTakXe47ru+QWAvoSoC0dHRyiXy1AUBd1uNzGJRFGjwWCAzc1N9Pt95HI5eL0urmxu
+      jI8bHlz8zOlvdJH1mvRL+D/OxUfo5CY/CAB080dvbne66KsaisWiyAmQ0MUXte/7wneR0Wg0
+      ItcoJ9XoPsUXY9JiSFoYtVotYrIlLZI0IY5/Z9pr8dfl4ISqqhHTNE1YkxKDlUpFBDjk71NV
+      VVBO0q5lGj6438SZsTnzfcHRPtbXPeydtLG2tgbDMHB4eIiTk5PlCAAQ3rhCoYBr166BMYZm
+      s5lqpwdBgIODAxGOqtVq4JzjtNvFb332JbG4SINkBfkR9NnIA+IcTHoI9ADp+Lf29vF/f+8H
+      KBaL4mFTlMe2bekwXESwKFEYXwycc3S73Qkf47y776p3bwLdhyzhY9M04TiOoLIQFEWBruuR
+      exm3DoCQqJiVPNfpD+H+6h/M1Bheo4Nv3/0A2uXfwdmHP8WWdwTbDtfmQlGgaaCTIUczDbRD
+      5nI56LqO05MTnPb7+F/+n7/EaUxVZceUxRFboCQg8oJSFEUILdE4kkBJQIox0zHHX8Um1P4y
+      MC08/CATTvL30z2lzY1AAZKsJmYWlEwN7tlssqaWr8C49jkoRg729V/Hsb4BxcijVK4sXwAI
+      lUoFN27cQL1eT9zFgyCA4zgwDAPvv/MOXtrZxnqxgNLmFm7fPwAAoR5n3hSx6ytR8ydBIGjX
+      Dt/PRu+PCgG9NmvByWzFOJaZbyBMI+FNM2XOC/lYaWHfQqEgCIUUEInnSBzHQbFYnJrplzXE
+      LGiaBt+ajyXLwTC49pvYf+xf473SSxcnAEC4mK5cuYIXXngB165dS7whp6enKJgmauUSOv0+
+      7HYLW/V69KQlsyUJgfQavSX8fdLeZeI1Lt4jf4aYr/ICTvpezrkQlrRolMyBWjWWkUw0DAOl
+      UimygaWFjony7vs+PM8TO76MIAhEUipNQOfRAEEQQC3VZ78xCaoGpX51eT5AGo6PjxEMLdQ2
+      t/Dcc8+h1Wqh2Wyi2+2iVquhXC6jvLODf3z7PSj5Ao7v3IZhjB+efKPSblraQk3aYcYPc/yZ
+      uPNIBTyywMbtfPrZMAy0223kcrnI+ylSdZ5w7aJQVXUu3ykNtGBlbZi2QJMEg3wB+TlQSFyG
+      /B5FUaBpWibKuaqq8O1Jf4ExBqYwBP7s0PqFagAAcB0Hf/CFz+HZeg0Htz5CEAS4du0aXnzx
+      RVy9ehXlclkUneRVFUxR8d1Xfxa1qdNOXooQZQUf3WjOuVAXJASu68J1XVSrVezs7KQuInqv
+      rJnSFnmxWFw5YU6u3zgPaCeXETeH4vdIfj3p80mQ30PFRnHEv0f4mEnaGcmRJTqOfKwL1wC+
+      70NTNTxz4zqeffwxvHvrFg7OmugPh2gPLDiuh8D30PV8nJ6e4uj0FB/dvYvf+fKXsEaUBcam
+      L3LGwLP4CgB8eTcamURAuKgtyxLOK+c81d6lXd11XRiGAU3TYJomXNeNLHZaDPl8XphXH2dU
+      KhU0Gg0cHBygWq0KM9FxHCSV1S4C27YTn2NSKDqMxiUcJGEZkBZTlNBJt+1Qw1y4AOTyeRye
+      nWGzvgYAeObGDTxz44Y403Aj5jg6O8N7t27jJ4aOWqGAl994E3/wlS9L5gkQ3+sDiuYA4AuG
+      CJM+Y5qmKP4h9qsM3/dFHTExYIkmHt95yVfIGka8SORyOVQqFaiqivv378/9ec/zcHh4iHK5
+      jF6vJyq1arUa6vU6fN+fu3STgglyQlPGNMqKruswWreArcemf4fCYOg6ADYKvow1zIWbQIVC
+      Aa99+CECcWHyBTJxAzbrdTx9/TqOTk5x5+QUz16/Hr5bmCpTnCY2nxk0DcRypWRdEATCRpUT
+      Q4ROpxOm1DVN1DAnCdXDEKYsFouoVquCgjIPKME1GAxwdHSEfr+PXq8nEoW+72NjYyPxHsnn
+      oGkaCoWCCJOSZtQ0bcKHAiaTe/HQqtHNJshBwEfnKWkStgIBUFUVQb6IV998Kyx49wMkhicZ
+      w2mrhT///d9FwTRweXtLOtHo7i7b3mHpoh8xbc6DePyaGITyA5Wzl6E6tUXt8qrNHLJp5fCu
+      rutioZVKJVSrVVy7dg21Wg2dTmfCwc+CXC4XiWrJnT/a7bYQkHq9nkoJoegPnUuj0cDm5ia2
+      t7dx7do1bG1tYXt7G8B44cv3Wf6XUM5rCJzp/g4Pxv6deD5s5HDPdRcWRKFQwM2DQ3zp+efA
+      FAVJ4UkAeOaxG/hobw+GpoFhlIJXFLG40zgt8WTWeSrJ4twixpjY4ck5oxYbckVcs9lMrG3O
+      AtIc8wqPrusolUrid2pNoygKisWiKE01TROe5+Hk5ASWZaFUKsEwjLnJe2TukaApiiIWVrvd
+      RqFQED5REAQiyVkoFNBqtTAYDKDrOo6OjrC5uYlOpwPf96EoCnq9nkguys9wVs214lpwDj9A
+      7srz2a9DHW8WKyOzt4c2XM+DqeshNUdScbLZkDdN4dkrigKmKFBHO4qmqsLDVxR1tEgBzlUQ
+      4Yd2H9lnmCcMqaoqhsMhbNuGYRgilElOLoFo1QTHccRCBiZNnmkmUPwBK4oCwzBSHUICLTwK
+      HVqWhWq1CsMwsL+/H4nHx+3seRJO8nnJQj8YDMQ9URQFBwcHKBQK2NnZEckwzrnwp6jW++zs
+      DK1Rtp/OS14P8gYWF4g4DMMAhtlb0wCICPDKBEAzdLQ6HWzU6yJ8KSA95PKoj4ztuDBHOxrF
+      tenmMEVBEPhgYOBgITlNUcAUJsKc4EDAp2uCUHiif5N3RTk2LZsYACY6VtAuGx43mi+QeUdZ
+      dnld1wVRbBaojxJ9d6lUwsnJSSSOHtcui/YYSuI8AYjE7dvtNnq9XuJ13rhxA47j4OTkBLqu
+      I5fLodPpiHqQarUqhEWmmcwsTcV8Gn8UNgl9krk+eQ6UK1X87N338Qdf/lLqBamqina3i9/5
+      8q8hZxpwU1Rf4LqjnSjqC6icw5vDjJi1vnzfF3QNKqCgTCfthHIHPHp/UgaYnNBerzfzgdq2
+      vdAODQBnZ2cX0kxgMBjAcRxBR5ft/KQQ5bRjNBoNERqWG1YxxtBoNEQbniykuDC7P9/1hqW7
+      oVZZnQbQNNw/Pkql0dIOv7OxgUsbGxOvyypybOZE/YB5Fn8SFEUROztFgWRKBJlFpJJlW5t2
+      wOFwKMyleMpfVdUJRmT8tXq9jpOTE9TrdRweHkbuV6FQgGVZkcgUaSZadBfVpiV+XNu2UwUg
+      DUSrHgwG8DxPmHi6rkd6LFGXkKzsV8WZL7ysaioUxhBwvjoBAADH8/FX//Ad/Mm/+tooLjtG
+      0k1kbDKcFvcdlol8Pi/qnalVIjlpBNu2kc/nhX1LOxc5f3JXC7LPC4WC6IcUp1cTisWisOXX
+      19eRz+dx6dIl0c+SFgjVIpDZk8/n0Ww2hU19kZCFcRFBm5V7WLTJmKJq8BM2VsbC+DgPJiky
+      HAwc/OLDoDJcznHr8AhHZ2cZP8Gk/+bDIlyYwWCAbrcr+skEQRANnY1Au7zsTNF7gyBAr9cT
+      ZZdko5PGogdMlXTFYjHSE5WIeGSnkxNJuyX5Bu12WzQjWHVh/rQs+SKg+5gUDCBM+z6lfS/h
+      oOE/SZuk74VmrO/5q9UAW1tbWN/eREUK3SUhS+ngrM8vskORHd/tdsXfyLTJ5XKRqE8QBKJ4
+      gxYEkb/i52dZlggHxttEqqoqPkshV1rs5AwGQQDbttHr9WCapggG3L9/fyW5B1p8aRGurIhX
+      hcmdBEmTytcSJ9Gln2AC65aHnKCZ55Tx3JcCVVXx/Tfewo9/8drU98UjLjJmLX7lAqqmwmRb
+      dHeitu25XE44dGSTVyoV1Gq1yOcdx4FlWZFW3YPBQFAtOA97lFLzAIJMBaCEG3U1oHDpRcPz
+      vEj7SjqveUl+uq7j8uXLYTeGkblIWnOWIE97pudhvq5UAADg+Ohogu8fh+/7qRz8WQUywZIX
+      P51PXAWTOSMv1viD0DRNmDji/IIAxWIRuVxOLABgnIH2PE+81uv10Ol0Ig2GZXq1bdsryzxT
+      Nw5gMlY/C3IQ4fj4OKz/HjnBsz5DmMgAl8ui8a3p9hDYi3XkWLkA/N5Xv4zPfeaZme+La4F5
+      b/q8cKYky+TyzjgNg8wtOWlFphRVPxHtgHY+8geovxGpftrNXddFv9/PtLgfVKv24XC4cJ0D
+      PdtpptQsLS7XPJTLJeDwncTvocBCmpZYeVuzk94Af//yK2h2e6iVivjtL/7qRO0w3ZastiZ1
+      jJgXclZza72B9ArmEGkkNxIG+Sb3+31BUwiCIPIQKKIDhP5Br9cTxfhUMFKpVJDP5zMLwkWD
+      +r0CszVPPHObxuM6Tx/YXq8XSZSZx2/Bu/b5ifMAQmEBG/0rtQhhygoTYYR8pYLX7+6BMYb3
+      7h/g3tExTtptfOMLn8cXnv1M+KY5naxFF7+I4jCGcqGARrmErjf5YKfRGmjYR9wmpjFM1O9I
+      diQNw8BwOJx4iNT3iNiopDEeBgGgHptZME1TU7Z31vtmgcxkEracCrRtC6o55mJxcDCMAyKc
+      B6O1Ev4dwQPQABTrpQd+2OsDqoZvvvozbNbXcHV7e5TdgxCERWP+rufh1TfehO2648IXSIXv
+      AEyp1G9g24A6aeuT7Svv9vLrdF0yZZeEgf5G5kIulxPXLh/HsixRWA6MuyhomjZhK8eTX6vA
+      Ih0dkjg8/X5/LudZZriSuUd0btns1BQGHkQDFX7CZhbHygUgrUxO03X88oObuDqiw8pagGG2
+      c+sHAc7abbzx4U28c/sOzrpdMKYgiPkSiqKI0TlkuwdBANM0sba1jX6/LxxbYj/GF6UMokrI
+      mWnZF1BVVUzLIX8hrTUjJb0oW5wUfaL3LaPmdxbkpB1RIEjQSaCpGg4YD0YBpodMy+WymK+W
+      KdOrRCcQEWTKiTJ0Z3NbYnggJtC0XaQVq5gieoPjOLBsG1WpQ0HfsvD2zY/wmcdu4LV338PP
+      3/8AR6029FFGlumhQykvE8bC5l0UbRkMBiIDS38rl8swTVPQe+M7tZyjoAywZVkTuQvLskQ0
+      h/OQj04ZZNIQ8eoxIoBRs91pDu55AwJUMyBTGmQYhiHOheYgUAc/ORJFGpIcfUVRBOcnDb1e
+      D5ubm5kHDOZyuYlRWzIURcG+bUDNFTMdj8CDFVMhgHFRRJLk39zbx2vvvocbu7swDR3v3b6D
+      //STV+DRrso5nrq0Dcf38c7du8jlC/j3P/on0Wg3nzLSSNiJuZygFVCyi2LzriDYQXSyjodj
+      k85bFmgaDiLz3GX6AM0iM01TfGc88UNCQT6D53moVCqJjYfPA9oISAvGQQQ/0ki04On85KQW
+      XSMRBen9Sc+4XC5jbW1tLkYq5QqSwBjDfdtA8PwfQ1FmhTEmsXIBiJPYZKimib/+yStwbRul
+      YhFmoYBqoyEWyWAwwAfHJ6FpUg4L5kszsspAtMcl51zswvl8XiSXAESKWSi7m1SaJ5s4ruuK
+      DC9Fc+KQS/9kGoEcGZKHbVDLeLnwJmurkCwgx1ou8omDrlG2u2WYpinMNNIilMyiuuMk863b
+      7U5U3c1Ckq8jm5u6P0DAFjMJV54HoAea1OaC+kcWSiWoo2F8ZHdqmrZwvxtaXPTgiZRmmibK
+      5XJkQB8JCZkjSQ64/PBc14VlWZGWivSA5aRd3Dwish0xSuUSRXKSqYYAgLj+80LTtHA8aIze
+      MA1EwIvff1koZG3W6XRSSW3URLlarS5MqQDGlgQArJkM7LV/D/f07tzHWbkAAOGuHR+WJ8/u
+      BZKbO82zAHRdF1NpyuWyiL7QbkW7F/H0qcW7HNakyIccAUnLUNPrzWZT0CN838dgMBAjO2XQ
+      golHV2hYt9wgmAShVColdqmgAposkCNVcoRrFmjjoGdEAjwvLMvC4eGhoJsvCrlghjGGbdOF
+      efTW3LzJB2ICAen9X4BxVzUC3aysRSJUmwpAFKuTGUELRX54jLFEZ3cakl4nzSH7FXGHkUBt
+      2GVBBJJZj/KDJseaYvJyDUOWwR9URilnthfFImFYeTDissEYnzsptHIBoEVBdnhSmSDRHmhR
+      0jC+aaCdnI5JlGZKSMmgUCw1cJUXHz0gytZShCiezaTvjJ93uVzGYDBAvV5Hs9lMdN7kTg7y
+      6/HcQdL3kQ8RFxRVVUUffrpvyxrgrarqwhVqSVhbC3tELZu0uAhWLgDyTGCKHMQXWJy7keVG
+      kaAUi0XYti0ELEnFk0NJDV2JV18oFISzqus6LMuKxLllJJlEFPmRW7+TYyg7sLSLA+OZyERz
+      pr6kaaBinbTWh9S1gY6RpQRzFihkeh7kcjnUajXBoD07OxNRpnw+nzkkumys3AeQZ2nJRecy
+      4rtt3DdIs3epM9lwOIRhGImF5XIuABgTz+SdnuxdudA9jvhx6TOU+Gq32ygWiyiVSigUCpHd
+      XRYSYEySi9v9aT7ING1IPg6ZdbOm3RMoQRhJLi3Y5iUOSnxR7YPv+2g0GigWi7h8+TLW19ex
+      s7PzQIaOr1wAyBaXd/n4A5UFgjGGUqkkFhJlJOlmpnUgMwwjMZFFUR15UQJhCNTzPHQ6HUFA
+      k/lCs5iLcntw2jHPzs5EOJDKIsmcoLyDnOWM5x3kXTerf0KkNUERGDXIymJ3x7P0FIo9r83e
+      7XaF5ieTkzGGtbU18Z3dbncl2e04HkgijIZjU5FIfDeVd3jKmsrvMaQQKdm6cvkiRXmoTw8l
+      waggm5rY0u5OBDQ5yiGHM9OSYfK/QRCgUChgMBgI4aIoECWTqMMcmX1kHtGuXalUItSDYrGI
+      ZrMZ6ZtDjaimgZJmROOgbhbT7PggCCK9S+UEGIWRZSGdx36nXkvtdltsZoeHhw+Myi1jpQIg
+      RzvITo8nTGj3jO86VEBBDirtJuT0UdiT3kvvk4lpAETHBvnmUxMneWGRIMjx5rQHL5sl1DS3
+      WCyKJrvr6+twHEfU8QIQWVMKB8ejXLZti2uiHv0i8SMRw9JAiSnaTNK6UaTBcRzR7ItyJaRJ
+      +v3+XLUAjUYDtm1jbW0NlmVhMBhgfX0drVZL9AmlGQsnJyeZj7sMrFTnxIemJUUqptnccgmd
+      bdvwPE8IAzVUIiEjM4u0BS2EpGqzwWAg7NT4ucpmCB2Xwqr0/SQkstZpt9siS0yF9sT1tyxL
+      cFvSFmUQBOh0OoKYR+ccL02cBupcQfc7K+T7J1etkUk4b19RAMLEKRQKqNVqWF9fR71eFxrT
+      MAzRcn2VWLkGIKTtIHJrEVkLlMtlDIdDNBoNkViiMCJ9hlidJCRJznVS9MT3fZydnYnwHIE0
+      juwYkl1MrQtJCxUKhYh5Q3Y+cY/Srnc4HCIIgogGm9ZBjjRBGp1EhtwacR5zg6bdcD5uayg7
+      05SkzBpd6na7aDQaOD4+RrFYRL/fF3ypXC6He/fuwTTN1LDxRWLlAiD3t0kCLaQ4iLdCheDl
+      cjnitMk7HfWtpwdPJg6ZBWmIvzYcDiNaARgLrud5ItlFi4vCqRRaJduXfA9y3sk8I1CBPfGa
+      yCeJV1XRoif/J8u8gU6nM3flFW085BOlBRrIvKRnSjx9OVssaz26VnqGMn3CsiwxLneVWKkA
+      kE1OiySOpDQ/odfroVKpiK5i3W4XmqYhn88jn8/j5OQkwp2hxU4O9Cz7l6jKMpIiIGR60UKW
+      o0XU2oQWZ7FYFIubkHTdZJ6RICXlRuK/07llWTBZd1XTNKGqqtBE9HPcLJUFI5/PC85TkmmW
+      JKQy61UGRfZWOVNtpQJAEYy0RR7nxcig7DEwzkzSkAZ6nbK+8jCHrG1DSGvISGrPQiFW+T1k
+      ZshRKfr+WSxO6hwhE+fkrnPAOMpEv1OUZxm7JWNMdFeIX2+auUVhVsq8k0bP6s8lgcpBT09P
+      z3lF82GlAjAYDKY2PE1z1OKLAYiqaYJcyUXHymr70i4pmzGUTZ7m9FEGWk5YUWVXlpAlRZDI
+      hJAd+XiWmUyKZZsJSR04KKlHvwNjJi+FVUn4FWU8LznrlPc4qCHZPJPiZTDGwDhH4CU/76Rt
+      lWOFApCm9rKAbGcgXNCzirNlW39tbS2cRH96ulCbEVrcZHcD40ZXtNvHFzmxQbvd7szvlBcf
+      Je1EzbL0fURj7vf7qTtrqVTKRIibBbrHlMug86J7SveInGQSgvMmzPr9Phqj+o95cwS1Wg3O
+      0SF6L//vc31udQMy2u2pF5UW3ovv+FluDGMMlUpF0KGp/86iffGpxI+4QvTQk0AsT8751AFv
+      BJlrT+dJSKJxTGsgW61W5xaApHoF+pkEW4760HOQ2xrK/54Hnufh+PgYGxsbaLVac+UtiMs1
+      L51iZXmAWbs/URziSCpEnwXOuZhi2Ol0cPv27YUXP4Ec72nkMqqxJUc9y6KgbHAQBBHhpmsm
+      bZZGyahWq6jX68jlcpHFH+cRyQS8uKnZ7/fFfzLPniALCXWuy/JMFonpB0GAo6MjrK+vp9Y/
+      JGEwGGSqDpTB2IqK4rNEYWSbUwZ1YqaoCxWazGrO5Ps+7t+/L6q8loEscXcgFOZ4qHdjY0NM
+      lIyDwpTy+znngqhHvKYkEGWhWq2KUkpKxhH3iOxzOVpl2zaazSaAaE4myWehXIh8H8kvmlbT
+      YZrm1I0vnuuR0e/3Ua/X0W63M5nOcdJkFnC+oqJ4SqvLtnxSQUoS5GonajBFobIsOyx1W1sl
+      4g1uKbFElF950gwAkTADxuWQwPgeUS6DTDpyhGVKt6ZpOD09xc7OjphfTL4Sxeu73S7K5fLc
+      9jrnXGSzyR84j0bN5XKZnl+r1UIulxPNtCgHQveIhmkAEInJebESAaCGsLSLU9tvAu3SdAHk
+      cFKWVw4vklpVVTU1wiKPLZLrD1YJOYoTBAH29vZgmmZkJ48LgMw1imvNwWAA27ZRKpWEuWgY
+      hugud3Z2hlwuh8PDw6k75mAwwNraWqQFfBaQYyyfP2WLZy084hBR0nDW8D8ZNLCQ6pipswbV
+      FRD3yjTNhYaErEQAqB2J3O1MXiDUE5+cLbmhqRyLlrnp+XweqqpOJFqozw8Jx/hJKXwAACAA
+      SURBVINqK0gZZKICA+F1FgqFSBkkJfMI03ZmYpfSgtJ1Hfl8Xuz0WUwFcjSpboESe4R446s4
+      KBtPjN4s3zkcDkWGfxGNTBoo6VyAMAJEhUvzaoGVOMGUMaUFT+V7cSeJnEF6CPQeirXHpw9S
+      5IgWDc2lTXLkVo12ux0ZYQqMnUj6j3OOfD4fqRme5a9Q3yGidWcRcMMwUI+1pKcOHMViUezq
+      ZIpOK5QnzUpJyCzJLmoZQ4JAZtiy0Gq14Pv+BJcrC1YWBZLj20B61ldOAlG/zOFwGKlOkkOj
+      ckeHB1FQQTsx8WAARApQqK++HD6M853IH6AdnkyhaYlBmhiTZcejyI0MEiSyq2u1mthBZ4VS
+      p3Vpm4VutyuucZnIOlUyjpWtmHhUJGn3Iruf7N1Wq4Vmsxkpo4zHqylRBYxbja+SS0LtSsg2
+      p4yunAegZlHUFVrWXCS4xB6Vk03Lct6p4mra36fRUJaNi9LQ1FF7HqwsEVYoFHB6eip2NVL/
+      MqmMnByymUkgSCN0Oh0wxkSlUxAEqNVqgrYcBMFc/JNlgLKWlIDhnEeiL1TsQedLi5w0HWMM
+      tVpNZJRnJdoWRbVaheu6EzY72dfLarz1IEGM0nn8gJUKwN5JC3t+ODuLqSEXI+BqOLJSARAA
+      PN8AOEVRAigcUIr1sdkD4BQKmD/aPR0Vvu/BdSw8UTcF1ZZA8fUkwaD3ksCRvyFDDsPK1GA5
+      kkELuVwuCwYlvc91XWGi0fFp9ydejdwBj4pl4udACbNFMU0rkn+WRXMu41xkvtUyQc96Hmd4
+      ZQLAGMNALaHw7NemqlraHcPUOwcw6TvIUFQVvufBefuf0Om8H3HogHGEKelmk7q0LCt1eDUx
+      NYGx+WXbdqK9WalU0Ol0UCgUIju6fO7y79QKhYZlUBv1ODzPE1PmF8Xh4eHU17NqnDQhmSf4
+      QN0qsnCl5kW3243UVs/CSr3GKhvCHSQnUDgPh1rKN1BRFREKTbNR4zed/Af5uGk3WZ7JlQQK
+      xcrD8KjAYxqIO0TnRZEPcV0jvyHeiiUtmymbVQ8CWe31rFwcKpC/iBA1+V5ZsVI69OXNOu7t
+      fwj9ic8hvpYjD554L9LPMiIPhI9nPhHIgZy2+CnfEK+8ih+HEi3y8Ox5UCgUcPny5Uh//WkR
+      njQswyeg5Fk8i7oMZKF+Ey46RC13DJmFlWoAXdfBfAdJDRyZRNRSmNwIKvlYctY0LiPEFZqV
+      BZ7VKiTOlEwqqJ8FWmT5fB5bW1vY3NzExsZGhP2a9ZgUQj0PqCs2hUUvKvLDGMOzzz47UVK6
+      u7uL69evT/3s+vo6HnvsMQDhfYsfY9b31mo1MQVoFlYqAJxzcFVPLOpgGJO1wMYtQOj50O+y
+      4ynIVAs8RErOzELaBJWsoLpgMnsoey2bNNQifRaoAmseEJcmTriLV7ZR465loF6vY2NjIzHZ
+      aZrmzG5zci7i8ccfn5vlOQ8teqUmULvdhl59PgxZch7u9KPXwuc6Nn1IPMg3oP+Fi15BuO5H
+      QoCL28mSUv3zdESwbRt7e3u4ceOGoHoUCgV0Oh3RepFKIONCEFfj816jXM1WKpUEB4t8G6Im
+      zIrIzPu9Z2dnE83MkrC9vY3hcIh6vQ5FUXB4eBjJS1SrVeTzedTrdTE0vF6vo9FowPM8HBwc
+      CH9sY2NDcJxmVfHJWHlXCD7aidI6DYTrPFoSGArEeBSPrBXEcadQa5cJykOkkcnSahqowxoQ
+      7lCXLl0SbRhl0OAICpXKfgdx+jVNQ29g4WzgYdIDkmt6gUF7KGlIBh4EYPYQHIBHx2YMcJzR
+      CF3ahEaalQNKwKB6PjyPSiTT7w8PPBQVL1LVJt8TOaCxvb0NTdNwcHCAXC6HF154AT/96U9R
+      LpfRaDRw69YtkdsJggA7OzvY3d0VbVReeOEFvP7666jX69jd3cXdu3dRqVQic99mYaUC0LUc
+      6JdqkHd6GUxRwCUVLUyehChQWrTkokGhy7TvSvv7/v4+Ll++LEiBRCeWuyAQDwqIRqbkajgq
+      nGlbLpQv/ldgU+ZiMcYQAGCK5FMFAYKAQ1EVaDx8jc478Mf3VFEVgI+uh4XPRk94XxzuoIPh
+      z/8dDCO6OcXvEf3t4OAA9+7dg6Zp2NzcFGYZJehs2xYbxdNPP429vT1Rx1Aul7G+vo7NzU3c
+      vn0bR0dHOD4+xtraWiThOg0rrQk+4iWoRg6I7VsU/uReuKPJxdgcoaMSl+asXr4MsgsXpUpQ
+      0mqR6Inrurh79y6uXLmCZrMpukcTdZsKWZIgV4cR/QPIQF1g0bpiNtrR6VhxLRw37ZjCwANg
+      7qkTIyRp+vhzo3spZ8eTQCS9nZ0dbI9G6VLy0DRNYQpR84Csa2NlAnDWasPdegm0X8kXy0a/
+      0yxgL767L8m0oea1i4Do2NTTdF5Q3e/t27fFIqNOdsDkEAz6We6+ILdSFObiFPCAY+RBhQtx
+      tP6ZkjztkktHDPwg1A6SwIQHzXa9VItRLBZFv08iLy4yC4DMyFu3bonWKdRzlUpCqf0iVaJZ
+      QxtmvoCRKgM4nzj9lQnAQd+HeW1L/B4X0Gk7enxnSHoXyzAcqtvtLmwmEY1h0UkpRJKTP0/X
+      JLdxIZIgUaeTQq+maWJoB/BYdk0YBAEUpoR3iac4trHD8ICnvpYF+/v7ePLJJwXFo1qtolAo
+      4L333st8DJol0O12cXBwgOvXrwsf6fr16/jlL3+J+/fv4/r16+Cco1KpiIqzTqeD//5//J+g
+      sPTOeCsTgKLiY+g6UA1i62W7o7LtLzu78t+y4jzhTGqKu+gxkpJoly5dQrPZjAwMzDIOKixi
+      YQj8ILTV58EoiJBGRV8mjo6O4Hke1tfXRWfo119/XZgrx8fHkea/9+/fF3XQdC53797Fzs4O
+      TNPEvXv3YNs21tfX4fs+3nrrLXS7XUGp2NjYQLfbxUcffRS2tSyX8PZr/4yXfvXLqee4MgHY
+      Wa9h/8OfIv/0V0TSK76zR3ezMPYTWeiRsCkbvScYh0oRhta63W6mvpnz4Lwx8njug0ogZVt8
+      1gKch+RFJo+IoYnI2sgJVhQADIpkDk0aCOfH2dkZzs7OEl/b29sTP3POcevWLQChgJOZ1Ov1
+      Ihrj6OgIR0dHE8dK+nsul8PrL/8A27tXsbWzm3gOKxMA0zTx2Vofr3/wCnJPhRIpP/zJHZ2i
+      CGMXgKgRcgaYMeokHb6H+ussWwDIpl0UFD7lnIvKNhoXKhfQlEqlCD1DNoHmonpHHGD6b3Rv
+      ORAEHAwcAcYtHZe1/m3Pg2rLmomDBQFkQRSvSP5O+rUo4akFY82YdIwkcM7x85/8AH/4p/9l
+      oi+50jBosVjEU3YT7+y/j8LOkwCShYBAOxbnk2OTCFyWEEA0VlokSjQN8zIxyWcgc4boxjKt
+      IgiCSJUbFctQqJUxFjEHspLHKLQZAecIfA6mMEk7xD5H90zORC6A7d/4M9Qv3wCAcR2w78P3
+      PAQ8EMcWjve072KAooSdKPiC5qfvOfibb34LG9USvvhrX4EqafOVj0hq1NdQ/uhteNuPJ5pC
+      aQs3rcU3J+9+9JLjOBHVCiBSML3MgplpYdWkxRrvhiDPBqOucIu2j5QR30hkZzYpARmP7TOw
+      c5lDmmHCyBfFzAPSZtRD1HVdMEVBTgpfpoFMxfNW+RW+9Ee4+8uXUXnzdTz30ufE3x/IpPiG
+      md7ENA3k+MYfy7isMMptkUGLflp6nHaqeZA0r5cwLVlGC9T3wyHaWc5vHgR+aOcHAY/4R2mm
+      DmMsojXOrznDYxmGgeGodsKyLAxtO3xGjEFhykS2ljEGRRpJBSDxmSRS4xkTG2oSPGeIGxUV
+      Tz/3YuTvK9cAAML9JcWeS0NkwnjspoXHDOP0aXZ6vOGq3NmYTBFFUdDtdiMVYNMWg5y5BbIt
+      HCrutyxLlEnSwpzVSW0uEHmQjRdWJpzT/ImeAoc2Mn845/A9D1YQgAEwzZCybOZyGFpWpHUj
+      YwxD2wbDuC8pmZO5fF74gv5oblzYNMzEKL4bFkDFNL3d76LgexMC9UAEwA14JIUf6S7M2Njz
+      pZ8xyfeZEBo+3bSJL6yNjQ2x+GzbFuqZuCSDwUBUeKmqilarJbol044t9zCiprizsL6+jl6v
+      h83NTdGtjTo/U4p/YbCUmcs8ambK5xn6VyOqiRomvgK+nHpk27ZhmqaoqvN8H+6oUMi2bbH4
+      qS58YFkAD7tU6KOpPnS/qbNFMKKwU2KSOuY5ji2IfqqiIG6AlhpbuHdyH5fu3sbu1evi7w/E
+      BFqrlOG0oiEreiZM/kOKzZ+0MyuaMZcJQwJVKBTQaDRgmia2trYELZgWKrVdyeVygmZLGU3K
+      DagxtT0NsrB7nif47oPB4PwmEB9lf6VciaIoEfNmwj/gsXvJWCSCNC8URUXghxsEtXmhHkaq
+      oibOLKa6DF3TYOZyiVNCgbE2oJoGICyJpZG21DEvzV/YeOIF/PO7H+HWRzfFNT8QDVCpVID9
+      u8DmVfG3MD7NYrtTRl2cmktIBw3DpsHW/X5fOKlEVtN1XXSZdhwHhmGI6A51SKPvpPZ8s3B2
+      diYSYNTrs9PpTIxuXQTx6E54H8ZhTkVRQorDyAanc2dsHIxQGAv/UxT4FIqdI3DAVA2+1xcN
+      B+TZbK7rhkxNVY1sbpE5xJ4HPsUf8zxfaCgGhoAHCHwfnu9DG43L1XU9kfKiqCrqv/INvPXO
+      q7h27TrAVtQdOhHDydrghZ0vzqFtXMftN97BWk7NFOlhjAkbXB4IQYkm13XR7XanlksSqNAl
+      y/lrmibanpBfQyHQWUkuWbiDJDoDG0d8OHhiOJQcXs45VEUFgsiLUNRQSEgYAEyYE1nAORcd
+      Mij8K0iOIwo22fKqqkV4TnLBDEc0aKAoDK7tAYwhn8vBHe3+ju1EptGnQXTqIxrKAte2FDy3
+      YWJ4962FF70c3QAAs7YJ5fN/ihbPC5s6rZKInCrZsZYHw9Hv8V0ojaYgJ6um9deR+4DSmFcA
+      kYc/DTSwGgB8Hu7cijre9Wnhyvc0dKP4iFgXgIOLHITrufB8bxyNGtX1kt3tui7cBcPGJNSa
+      pqFQKKBYLCKXy43rtUcbSyGfh+97o+BAAfl8PuKvBKOJm/qIhUsdJQr5AjgPaxpcx0EuZyJf
+      KIjvmAYmMQwemAaolkt4qnkP7+ypKFx+eu7Pc87BYkkwLV+C98Lv496rf40n8gzaiIEZX7RB
+      EKDf70fK5ujneAhOtifTFqllWRgOhyiXy1NnXFGkYzgcolQqiSKZrPY2XUexWESXu2LhCxqz
+      lGCKQ6aYxM1EWctNcP3PERIlH4D8Efl7OA8bgNG59Pv9xEo7yhvQ+YbHU0BZZQDCSVYUJWQU
+      z3HOD0wDAEBjrYbL3XfRu/fuQp9PirVruSKqX/kvsIe6iBykLTIiXlFIkm6iZVkYDAZzhSTp
+      PKY1jI3P2qKdl5zqJMijYCkrLBp4SfQG2dnlGG8MZH+HuYGYw8vPYXbOAfmak14jZHlP+HtC
+      eJoELNP1jNfCAxUAALi2u41LvQ/h29MzgvOwFxVNh/ns1/ChW4HjuCiXy6l2oeu6gnwlh0WT
+      urPJvX3SMG1B0fxf0iyU+eU87BaXlFTzPE/QIwC5cZgalokGlAVnUhg5tLMDPwh9Ag6pKkwK
+      I8eiPdMSSQ89Yvc9q1Z9KK74se06hu+/HPnbpNTPu1MxlF74Ou6ZVzCwhhMjfpJAYc2kv5Nt
+      eh7Q4qWePIyxSEFM2vnJpgFFqHzbCj1hhIudU2SEzCI19A/kvEn48ziMzAM+kQVO5BE9QFyE
+      UMqy8VAIAGMM8F1w34PvOuh+7//A8HQfLENh8zTKgaqqqDz36zja/BW0e4OZlOa0EaykPc7L
+      MKU2jZRrqFaroq06lffFQcM+qAiEYCjjRQ+M+DucdntFFAgxhQlBYIyBjTSFcJgDmZ3JRUj0
+      ocE5giTpL45/fGiu9qV1Fdrbfw+7eYBupw2tUBntbNNvwDS+DRuF2nI7T+Gw/jy6g+HUyfHD
+      4TDRfh8MBmIU0aKgRBqdG3Uvo7JH2Vmk95RKJdGKMQiCiRaL9D5gHOkJ2Z5h2xkKiUY2kRjV
+      QdCRFTazqi41C3+BuGgf5aEQAMbCzsovXGngye4bYIUq7Fv/kvnz07QA6bvKjRfgf/HPccoq
+      c9/UrJVgiSQthCFVuRMbLdYgCNBsNtHpdMQgQRJQ6igNjKdO0rkAAI/t8PI50GUnadAwfCxn
+      fiE0Q3idKa0kVUV810UUzjwoPBQCQAh3MBWFy89AOfoAgZstMzotyiBD0Q1oL/wuTljlQhqz
+      5nI5lEolFIvFSMxe3u3Jz6BFLy9QKpusVqswTVPUIAyHQziOg16vJ8wwH0pYHDTa5WV7HyBh
+      TD7PyE7PY6HPlLXNg1CjBH6Q+p6PDR42H0BGpVSEErjQf/XPoKa0t5OLyIEoVZoSZEIrjB4W
+      UYMVzUDx83+MPa+49EkyNEaUIjoUviQuDGkeareY1L7DdV1Uq1Wcnp6K13zfF9SNOMiOn6oF
+      JcSjP6SRaANhCksslsl6/I8bHhwVIgWmaaDI21CK1eTuDyOeiiCVUfv00evhM+LAqH1i+OAA
+      TVPh+WErdaZqWP/qn+H0tf+MdWsfmjZ/HUCSr+C6Lnq9npgLRmxIRVHQ6/VEBnraQmo0GmGU
+      Z04NxYOwkksIPQt9AUDmBEnvl1i2MpikVRLBoqae0Dr8wU3kPA8eOgEAgLzfR6/fgV5M6QrM
+      qKyPRbOHjIEHPtTRPDLOx4Oyw4ywN3obA1M11D73++i+/wqKh2/A0NNvhWyPE2jAXBxBEGA4
+      HEYKXeQpkUmf0XUd9XpdjIli8euaBVr4kbdzcK5ATpYLisGU9T2t6xsgOd1BjGvExiFLpihQ
+      1POVMa4KD6UAPH1lC79469vobr+Iwta1UTe5EFRYQfAR3cVUVYXjOILIFTbZGvXEHJlJirSY
+      809+CS3PQ735LkrFYmozXFkAiNgV1wKDZhtBpzs6r/CcwvReVHiYLRfmqMiVirA6AzH5XezO
+      YICR/Igc14f74c8AJmuviXq5kRYMOf9gY/t/bpOG0z/Re805H18eBwLXgaI6CHrN8N0SOY8Q
+      uI6gTIdnCSiGmdrmkUqeluV864MmgM8CeEgFQFVVfO6pqxgOD/Dm2x8CL/1h5PVZ2VYAYtuL
+      O4ZytzRS5ZXPfBWn72rA6VvQUvrsTC3GGWH91iFe6KafG7EfNVUJiWmcgzEXjNmjcVAJ34vk
+      QMCbqoO76+9EfKH4faE5wPFObMViUVDAidZN9OW0cVJJoIKhJPjtO8nXM7qPSUs94Dz53pKP
+      tyRtolXG84QfSgEAwkWWz+dR1rpYpJkh0RroWGNwBDyqBRhjqD79JTRv5lDc+xkKCbuuHG9P
+      zT2AQZ0SIheVV4yBj7SR4OrPGVunfqlxAZdB9yD+dyogIV8mn8+L4nNFUTIl/MjRz5ITkMl3
+      096f9hplyxftyjf5ReMfH1oBAMLM6wGrIft8kCj4yACWbyvtJMHoYctCUn78s7DyJai3fgxT
+      GT8wCldSz/u4SVQqlWYmyliC88gYUnf+ZYCiO/HAAVGyDcMQZYSc84hfQ5+Zpg3kpgCcp7eN
+      TGLkEuIRvSQsbeGP4Hs++t0uVE19uAXAMAwws4CJ9OUc4EEArkxyYpIWKwOQ33kCQ02H+tEP
+      YSpcVIG5rgvLsiam1QPA2traKGbPkRRDZAqLjH0CQm1wkYufQNGnSqUiEnq04KjjMkWu5PvC
+      efp8NcKg18Pvfu03I3/jfNzkeCY4x7e+84/zX9Q5EbhD/NW/+V+haNrDLQC6rqPS3wNjvwKw
+      OaIiGSGbCONwHoexfgUd/6vAG99Co1IUfYX6/b4okqeuzbqujwd7Jyx+VY3a6KukEdB3Ugkn
+      JeHkkk6aWEMF/3EWLGm7uDAoigJVU/HMU08BgJjSE8zhXHPO8d0f/RjOioebF/J5eKMc0EOX
+      CIvj2Z0avHd+AExhS86NWERH5smTMBS2r8N/9ndx3B7P86L3uq4bDqzTDbB7R2i9/xE0TUPF
+      HRfIj80ODj8I4I969USrtVYjDDLTlLLT8ow08gWSKqny+TzK5fIEUc+2bbiOKwQs4OF1fhyS
+      ZZxz0dTgoRcAwzDw3BrQf/+VzBogyRmUVfusaAJ9vrh9A+ylP8Jxz5moIHNdF/7+EX5r38KX
+      Pmqi9suPcMMNd0t1NN84no0OBWj1GVW5qx7NL6YdnQQ27d7SkL+Pw8LOCsrVeJ738AsAEHJs
+      rgdHcJoHmd6faN/PudvSMfLru1A/9yc47nsTA7i7GoODAAWo+IKjA5y60KV/VyQDuyINIA/B
+      k3sayaZfWh1zt9sV/XkuAtSRb1kTKrNAztB/LAQAAC5tbSB351W4VvJwulmYRZgTRSJ8soOx
+      XloDe+mPcDaM7t6qoibS1dMGWxB8f1ymuCrQAi4UCvBHhebyok8716k7/wz51TMsasMwUC6X
+      Rb8gMtXK5TI2NzdRKBRgGEZkROy0sanyMdLgeR7K5XJoBs08w4cEjDE8f3UDr73xLTjP/A6M
+      8trsD0mfpX+nPdBpAmJW6nB+5V+j/9Y/oMRDn0AtFzDgpzAXKCIZzwSg717cxJiY7TW6TqJW
+      O44jyjzpNV3XBV2DMrpJQ0DISZ67O7aqwvNmaw3P88B4WCUnn0OpVML9+/fx+OOPAwijWblc
+      DuVyGZxz8S8VFPm+LxoTHB4ezhyC7rouBoPBx0cDAKGa/uyTV1G6+X1wb+TFjzhB08D5aIfH
+      YgUWJEBGqQb24h/izA0XjG6aaKrZj0fFKnLkKes4z2nnRu0cCVS/bBjGRKaYNB05vMRIlSdV
+      ysjn85GGX+QUhwdMPy/P9zNRFzzPE03JgHGnbc45Njc3MRgMRK6C+i8NBgMRhVNVFd1uF5Zl
+      RThb8cVPgiJ/r+/7Hx8NQFAUBdsVE++c7KF46Ub4t1H4LR3j2tlFvk9eoFq+BP75P0Hrn/8G
+      u6qKZskEptAf4qfBVGVyPOyU3MTMQ44cWspXUN9MVVXRbrcnjkmFOcR58jwPlmWJRF+c39Tv
+      9yOZ4VU5xAcH2fw9GTQ8Lwlp1PePlQYg1Ot1PN5/G4P7H0Z6zy8baTuzXqhA+5U/xn7HgTuj
+      dQpFhdioYQN4suk8SwmoarqmsCxLLHzi86RlpsnMkEEm0qxe/fT5TxI+lgLAGEOjVoHfD0le
+      cZ5JWmnivIjnCOS/q7kSgme+gQ13+i0c19zS+9JrmBeF53kYDAbClKC2i0kQ0Y8LaoHycPWU
+      iEJeF4ZhoFarffxMIIKiKFBHLdEpaiPHu2Xy2nkzyGGNDYUvw8ZMAGBWGri9sYnHjs5mLmAG
+      wA844utOFtpp9Igs9OVZFW6KomB3dxetVitsN6jrGA7DRgGWZaUyO+fBsvQD0TSoue4ykMvl
+      BOlPZPOXcuQHBoljHownjUcWIwuHQ5zH2eTUXS2ItSJRVRz+1p/gQ2V6tINYn6pKhSLj6E88
+      9Jpm6iyLN9RsNlGr1VAqlURL8UqlMvd0nIvGeUbSpsG2bUEBoY3xY60BNt1j7L37KpR8CUZ1
+      HUZlHYwpqc2UyNFc1OFMglFZx0fbO3j8/lGq+g/8AJwxqFrYqxR83H8n3PVpSgxGlVUcClPg
+      ee6o1+X855V0jXIXiuFwKOaSAQ/Otv/qF7+I7/zwh2BymSsbd8xeJoIgwGAQFh6Vy+WPtwAw
+      xvDE7gaeAOB5LfTa99DZt+BAxalngD3+a9ALUSJ1fA4Y1QtD6qWJOSulGGM4/eof4h/+4S/x
+      ex0rMTFG3wUAnuuJ8kxV1aTqr5FpxUfUhVEHY3W0MKbW6UrnIg/xkCfOX758GUdHR6LgnrpY
+      VyoVDIdDoTndUYfoVYAxhs+++ALW1xt4/c234Hse7u7vw77g76cQqOu6H18BkEFd1qrVKhhj
+      eCwI8Obbf4feY1+DWdsUJkVSgUj4o5Qow/y7oZIrwC1Wgc70KIrvjfrbe27oE/jJjqrrepI5
+      NyqWUZnIZ8SvvTgq5fQ8T3D8fd+HaZrCIQ6CQMTvaZj4+vo6zs7ORNUYZVgzhyCXROW4vLOD
+      yzs7AIBfvvUWfvzKqzhrNqGO6g1omua0TtqyNsuK4XD48RaAIAjwwQcfoLG+DsdxsX98BkMB
+      rl3ZxbOPXcH945/h/mEZrlkBciXkth4DUsathjdW5uuPVbEsOHFnNPBdbP7V/4bfsHzwmQk5
+      Dt8PPxvv4xN536i6XdZQVFBD9GqFKaL3EFXP9Xo9ERKl7K6u61BVFYeHh2JYBU1j2d/fF2Q3
+      ygHMU3wybxVbFrzw7LN44dlnYds2Do+O8PZ772G90cCbb7+DvcNDMUNZns7DOcfa2hqOj48z
+      D0chfKwFQFEUPP7447h/dIxWd4Drly8h8H0UCgUoioLL2xvY5Ry+P0C/f4w39hwUrjybeCzO
+      eTg3XYoeAaPoDJlNCf5D642f4I8G4fyreTBe2AkFNJg0+0PHmUNVx12gqSSRzBx5gB/NyyIz
+      iPqeBkGAbnfMp9I0DbquZ8oBTF7DxfkNpmni6pUruHrlCgDgxeeew7/5t/8WhplDvVbDm+++
+      i0G/j/WNDbiui5s3b4psOLE9TcOAoesYWBZ2trdw7/4BNjY2oI7mRuTz+Y+3AABhuOzypW1c
+      vpT8OhstlGq1itKd2+gHHtTaDozq+mSfntHOEkg7vawJkkKRebOA3JyLH6BheVHTi0QhPK/p
+      3KT4NYanz8XnKSxMXeXK5XKibU8aRJ5W8zBC13X8d3/+52LxPv+ZZ3BweAjPD/Dic8/i9OwM
+      3/3Rj9Dt9fH13/h1PPnY49B0DTmJxnHrzh38p2//PRRNE1rwYy8A8+CFy2sIgh4Oj3+Kj852
+      ULzxkkRKG9OUIzmEcCWmHtO0xjQByY/OhCDgol1JHPPurrSTE/+H/AFy+uVdP3oOAUzTRKUS
+      9kyVO0iQzZ1mVqy6uk3mJD3x2GN44rHHROSovraGG9evY9AfoFJJnuNwTxxpZwAAGFlJREFU
+      /epV/A//7X+Df3n9dbz885+j0+19egTg8PAQUFRsbaxjd7OBSu8Ub7//E+hP/hpkJzi+Axq6
+      HlZ0JXWC657hsbfCJr6KMk7E+XPQnDnnYLTWp2iaWaAIEJ0DdZuedhzyHagnadz+jw8Cj+NB
+      5A5Y2Nwoou0ImqqiUilPrSA3DANf+sIX8OJzz4U9oi78jFeMIAhwdHQ08fd6o4GjoyOxm5VL
+      JbxY8+C8+0+R94U3dLyz0RwvPaGtun/zTXx2EC6ahZNsI4FZZNHHITuGjDH0+31oI3Wf9t3E
+      GUoKf8os0SQ8CNoDY2ym853lLubzeRTy+U+eACiKklgwoWsaXnju2ciOljNNPGn2YB3eEn8L
+      FyGP/O77fiKTVK2uw11S8j8IwnJJqh1OAznDQJjZnMXOpAEb0zAYDBZrPbJiEwgIp9j7S/RT
+      PnECAEAMopBx69atRFt2ba0G8+wmgLH9H9/N/dEUwjhYfQvfvH4NQ+6Lz5+HshBfyLHILIBQ
+      w8kaw7KsxC7TwDjxl1bOSCNHi8Vi4j2bhVX7ABeBT6QAJGFtbS3RNGKMocStib9lebhatQH7
+      uS+iF/jw/fHCXB4m+wkR+Ki9OjE7KQxKc3h1XRdzCCLnLGlAEhDDMAQ5buIMPgGLfBo+NU4w
+      ZYqTUFB8tLpnyFXXAYSsTM45fGcI3xnC6TYR2AMY8KFzB3BtqIED/tFNfPbgDOtq+til84DY
+      oWG4lCU615xz0dyKtJQ8tT6++5umKd4nEwhDzTKpKdbX13FycvKJqwMgfGoEYBp2tzfRuvtT
+      BPdzgN2HO+xB9YbQEUAHR2MUXbFtWyyEWq0Gdv8envOSHUzCvMQ7xjCqcR0vdt8PIg22gLGX
+      Qkkweaee1sFB9gd83xfhUYp+VavVSIvEZrP5iV38wCMBABAu0stF4OhI6misMWDUwzipYVSn
+      0wH/zDX8U8dC/aiNqxZHiSXTG8JUQoZFxDAe+MHCHV9RwiTZtNCq4ziZKABJ1xIXFt/3US6X
+      0ev1phbWfFLwSAAw6g5drU7Uv05DEAQAAzrVPKz1Cm5aFjZbQ6yf9XHFZTAxzu5yDjBGvJ60
+      cwCAcHwpUxUoCoPvZ3OqkwR0UfR6PZTLZZRKJUGwe1izw8vAIwEYQVEUIQTzwnVdKJqGk/US
+      Wts1vN8bYKtlYfOsjx2uj3wKZeouLmjZgMhuJoFIcYtCrkAbf3dUyGzbRi6Xi+QVkibWfBLc
+      40cCIKFUKmFtbQ3NZnPme9NGGOm6DnN7E4Nt4Kbv463DE2wddkITKWBgmezp0Pwh/0FVx8Ij
+      WqokfGoaXRgIBeu5J5/EzqVt4UOkdaiYWOxMiVTDAWEy8eOORwIggTGGWq2WaUgd52GD1SQK
+      MS1c23HgFEzcf/IS9j0fuWYXW8ddXLMZTGktKaoiusRR3yCiTQMJ9j9jYDy6dHO5HJ5++ump
+      5pDrujg8PcWzzzyNnUsp7MFPGR4JQAxEIZ4FatykaRqOjo7QbrcF954iLSQY5EgO6mXc3VzD
+      7aGN0kkH104tbPkMGgsnxsibd3qBfOgnQImGOxVFQbfbxc2bN2de3ze/84/4r//sT1EYzTr4
+      NCCNH/SpSYRlBVGns7yPmJdbW1u4evUqdnd3sbOzI8aiJsF1Xfiqgs72Gt568Qq++2QdP62q
+      OFEDKIoKgIGxMLmlaepEJ7lxmxUm+maapinaIM4CMVz/4999G6dnZ5nvy0WAIbyP6gW1aCEo
+      Ix8mPilIYeyRBoiDMYbNzU3Bs0mDvOCIVUmo1WqCXZnGw6H4PXIGjq+uo6WqQLMLfZhswsi7
+      FwPgmRU8du1apG9Rq9XKdI39fh+e5+H/++a38Aff+Dp2H5A5RNfkS5lreZQTHzUE8FJKR+f5
+      HhIC4hEpVFR0vkv4ZEJRFDQaDezt7S30+Xw+j93dXXDOcXZ2hpOTk6nvD4IAdhAApRzs0vTE
+      moz9/f3MHd3ioGa5P3j5FfzWV76MS1tbcx9jmaAFT5EnEgSmsHAW7nmQxrTl/JEJlIZZ3dMG
+      g8HMhZfVn1gU3W73XCFRzjkODg/x99/7Pu7t7y/xzLKD/CPbtkVAwXVd8e8ychwcoZaRWaQ0
+      yumRAKSgUCjg0qVLU4XgLIMNfZGZ1Gn5gnnQarfxnR/+CP/82muf6KSXDPKFHgnAFJRKpak0
+      4aS+oXFkdU4XAbX4Oy+CIMBZs4lX/uUX+D//8t+hvYQWicvGonpOVRSoihKdCy29/kgApkCu
+      0lIUBblcLmJyEPV4GtbW1pYqBDTUWj7HZWE4HKJvWfjuD3+0tGMuC9Rech6oiiIc7fhIKEom
+      PnKCp4AxhvX1dfi+LwZFEEGMSiVd1xX9+ZOgqio2Nzdx7969pZxTvAKMBkUsy3RxHAftXg9n
+      zSbqa9mn8KwC8wq7iPiIiNKI+g2Acf7JrAleNmgsD8EwDOTzeTQaDdRqtUzHiO/a50Eab2eZ
+      6HS7ePlnP1vqMR8kRGNjQAxSIdbtIwGYAjKBVFVFv99HEAQ4PT2FZVno9/uiCxvNt0rboRRF
+      uTBfgMYHLRNBEKBvLbcx7cMG8t8emUAp8KQ6YFVVRWJLHbVab7fbwgza2toSpYfUgz5ur5ZK
+      pYWYpg8CQRCg3enAGg6Rz6hdFEXB6dkZXNdFrVZDPpdbuMXLKvFIAFJAO+tgMIDrurh+/boY
+      lk1CQJx5RVGg6zq63S5qtRoGg0EkMwwAlUoFnU5HTJ1/2OEHAX76z/+C3/zKlxNfl7k1t+7c
+      wY9eeRVnrRZyudyom3WAfC6HKzuX8I2vfW1l5z2tJ1Cn08XPX/sFPv/SS6hUws7h6m//9m//
+      z3I3sEcIQSqSWvFRv3rqv0m8HBokbZqmCEk6jjPRip0xhlwuFyk3BMY+xkJtSUbH1XV9qUUx
+      QMhZsl0Xw4GFy7s7E6+r0sCR/+uv/grdXl/0EfI8D57vY2jbaHW74Jxj99IlKEzJNDnyovDX
+      f/tNHJ2dodVqgYHhx6+8+kgA0kAJJppizhiDaZrQNA29Xk8MmnAcB47joNPpoNvtwnEcFItF
+      7O3tYW1tLWIKkS8hJ8cajYZoYVitVlEsFlGpVMQA6VKphFwuh7W1tUSCXbVahW3bF5JxtiwL
+      p60WOp0OLm1tC1+DwokKY3j3/Q/w5rvvpYYofd/HydkZ7h8e4uruzkonwsehMIYPb9/Ba798
+      Ay7nyBeLny4BiM8PmwaqgqL/SBPQvNpcLpfYb9N1XdFipNVqoVgsRrK1iqLAcRyxYGloXaVS
+      EbNuu90uKpVKOMdW00T7b+ruLMM0zQs1qzzPQ7Pdxhtvvw3HcbDRaCBnmqJD9T/+8IfozvBt
+      PM9D37Lw5jvv4KknHr/Q5OA0MMbws1/8Al/4whdE9+xPlQCQo7qMXUjXddGOJA7P87C9vR1O
+      IBkNeQBC/tD+/j5M04zUDLiui5OTE/i+j7OzMwyHQ3S7Xdi2jU6nA8uy0Ov1UK1Wkc/nMRgM
+      hDAbhrF08ycOmqZy0mzi7ffeh+972Nnexvd//GN8cOtWJu3j+z6YoqDb7eGJx25c6PnGwRjD
+      zVu38P2XX8bu7uVPznyAeZHP55cWN2eMiZbj8b45nueJCSzyjk2LPp/Pi+mH1MseiE43930/
+      srAGgwEKhcIEs3TZM8+mYTgcYjgc4vV33sWrv3hNJASzwrZt3Lt/H+12O1PNxTLgeR5+9PLL
+      uHd4hHq9PvH6pyoPoOt6Yt/Q82BtbW0iIUYNevf39yOL0zRNVKtV1Ot17OzszJ3aT6JVZ+1i
+      t0xQS8ZFZon5QYCf/uIXSz8n13UF7Znu9+07d/D//oe/wVm3l7j4gU+ZBriIhUJ0CcbYBDuU
+      RhaRxtF1Hdvb2wBCtmm1Ws1cxDLt+9NoEBsbG4IG4HkeHMdBqVQSzjswLqRfW1vD2dlZaKqw
+      8cT5OJt1kVlcMgaDAQ5PTtHr9VEqFRc+Thx//bd/i4AD7U4HKmNY31hHf2ijlrLwCZ8qDbAM
+      pDWhXV9fT/QtTk5O0Ol0hANNIMFZpCmtDMdxUp1KTdNweHgIzjkMw8DGxgZ0XUetVkO9Xkej
+      0UC9Xhe07/X1ddRqNWxsbKDRaGBjY2PimOcVAADo9fv42ZK1wO9+/etod7vwggCBokA1zExU
+      lU+VBjgPyNbudDoolUoTNOS0LmpEXqvVahMaSFVVXLlyBc1mM7Fx7zRUKhXQWNM0R7jf72Nr
+      a0uYK/Qf51xMlKG4vWVZIldBnebix8zn8wtVn8UxGAxwZ38f/X5fzPU6D779nX/ED3/yE9Qb
+      DTz99NNzafpHApARZMv3ej3k8/kJAZjmhJIpkdR9GQhj+e12OzUZpigK8vm8oFKQ3d9ut2EY
+      RmoYtNPpRLpDZ1m8aaOUgNCHOa/JRugPBvj2d7+HP/6934OuL7YMGWP44OZN/ODHP0ZjYwNP
+      PfXU3GbuIwGYE9QKRQbN1qL0ehJ8308VAMYYdnd3cXh4CNu2RXSIQEkyEgAa3Uo5hVWgUCgs
+      lcs0HA5xcHyM//z97+P3v/H1hfwz1/Pw99/9Lp548klsbm0tdIxHAjAHaOIkxekpM0yjiOK9
+      +GUYhpEafiU6w+7urqBR7O3tCY1A445kdLvdzF3slgHiRS0LlFi8e/8+3n73PTz7zNNzff72
+      3bv4h+99H7fu3MXXzsE1eiQAc4Ls5OFwKBxMACgWiyiXy6kmxOnpKTRNQ7lcntL3k4miGzkH
+      QHSLOMiGPu/OTFnvaQkt3/enTpuZF+VyGcPhEKVSCT997TUMrAE+/9nPZt7FdU3Hhzdv4vnn
+      nz/XeTyKAi0AaqF46dIlYQ71+/2p9jPnHIeHh0JoyIxJO36WYnfHccSc3/OgXq/PTEzZth0Z
+      U6ppGra3t0UImM5ZVdWIw6/rOjY2NkLawchvUlUVnueJGcZ+EODnv3wD9w8PM59zf9CHHwSp
+      8f2seKQBFgRlghVFmavcsdvtotFozFy49XodBwcHM4+3jB359PR05ns8z4uEbKvVqsgb7Ozs
+      iJ4+tCEQ/btWqwlhXltbE9dE5mKn0xEkwJPTU+yM8iTT8OFHH+E/fuvvcPXq1XML/yMNcE7k
+      cjnB3swCzjmOj4/hOE7qw2OMoVKppOYWko65anQ6HZFLkEes2raNZrMpaiIcx4FlWVBVFYPB
+      YCIyRec/GAxw/yCbBsjncmh3uyKpeB480gDnhKqq4kEcHh6i1+vN3JV7vV7ENEgCYwz1eh31
+      eh2WZeHu3buJ77NtG/V6XQhBls7Wi0LmHbmum0lDycjlcmg0GrBte4JE6LouLCdbTUQ+n8fQ
+      tpfSE+mRBlgCyAbe3t7G5cuXAUAkmtJ28E6ng9PT06mLlY6by+VSj+M4DjjnaDabaLVamblO
+      qqpGiv2ngRaaZVkTlW7zYDgc4vT0dGLhWpaFYrGIoePizbffmXmce3v72NjYWErTsUcCsGSY
+      pokrV67g+vXr2NnZmVgwVE5JFOP9/f2ZJoyiKNje3sba2tpErqFarQrhIM6P7KymYW1tDbZt
+      Y21tbWo2tlgsiiKdYrF4LiZtpVLB5ubmRNSKaOP9fh8f3Lo1s8XL0089CddxlpKUe2QCLRmM
+      MeEsqqqKjY0NuK4r+DPUNPf4+FhUmpGNnFRMT6CFSJPrqXim3+9HstL9fh+VSmVqiSVjTIRW
+      HcdBLpdDtVoV5g3nXNAhaO4AwTRNlEql1PbvaajVaiJSliTwx8fHqNVqOGk2cf/gALs7k2WY
+      CmMIOIeuabi8u4vjDM77LDwSgAuGruu4cuUKjo+P0el0RIVXrVZDoVAQVV5ZnWga6KeqqtgB
+      s/QoJeRyOeTz+ciiJp4/HZ+m3+RyuYld1rZt0Q4+Ky+oVquh2+1m8k1UVcUPXn4FO9vbeP6Z
+      p7HeaIQ0Z0g9fRjD1noDfcsSfsmieCQAKwAN0ahUKnAcR0xfJHoE0R+y2OScc7RaramMTM45
+      KpUKPM+byN7atg3DMFLtZ9qdpyXXHMeZi8VKoc5erxcOFEzpZNdqtVCpVKCXSrh17x7efv99
+      bDYa+NLnPicK8+n8vvi5z2Pv6DjzOaThkQBcIMiUIN6OpmkiLGiaJs7OzkR7xZ2dHUFrKJfL
+      wleIo91uz6Qk0O5umubETk2tXM4DTdPmckCDIECn08GNGzdwfHwsNIuqqigUCmJWAXXWsCxL
+      NBM7PjvDf/j2t7G53kA+l4OpG3jpheextbEBU5s+FDDTtZzr048wFWRPU7FMvV6Hrusol8ui
+      gRbnXDitpmliOBwKynKSWTTPwrNtG7VaLdJPlOz/8yAIgrnrqmkqfaVSEZng9fV1dLtd6Lou
+      WrtwznF0dCTOt1wuYzAY4O7evjj/92/dwtOPP452t4dqvfHIBHpYQQ+Guj5Qh2JFUUSTLSov
+      JHKYYRhCMJLs22KxKNqvZNmJO50OyuUy+v2+SEydF6ZpLnScTqcjfIxCoYA7d/7/9q6lJ3kt
+      iq6UtqecU6A8VEQxxISR//+nfINvyqAKaGlJedlH7uC6ty0gFOWquelKnJhYStz7nP1aa48g
+      pYTv+3wIZBf/AbssPtJn+vP374fTtaegdID/EDTlGUVRTgkiSRIEQbBjRI7joNFoIIoinjzd
+      hmVZ6Pf78N5kCPdJpWSRvu3fEkIc3Fl26nf6zADearXC5eUlPM/jxD1NU1QqFRYJ2Ma+W5DK
+      yK1WqwyBfjvoZAfeY2fi6VKsblkWwjDEfD5Hu90+uPCaHKPT6WC9XsM0Tcxms4O9BHKUc+DL
+      VRddh1IK7XabCwFJksCyLCyXyxwzbh/fWQjBahvnYJOVDvDNSNMUi8UCtm3nFB0oAQ7DkOmO
+      h6BpGqSU/LPZbBAEwY6cyrml0/e9F5HoK5UK9w8++lsqBqzX61xFKgiCvF7PmwDZdom3Vqtx
+      P+QcoxClA3wzDMOApmnwfZ8J7dkqjed5XGcv2huoVCrcoBJvqm3EFSCVB13XeZ6fjKrdbkPX
+      dRblKgKihWa5D91uF7PZjL+PUoqrXVnUajW4rnswZLMsC7ZtY7PZ7O30nnvOqXSAbwZNPpLx
+      7BsLoMpIUQegqhHN9M9mMziOw/KNdDoLIXIOYBgGnp+fOadoNBo870NJOBFhyGgnkwmiKIJS
+      isuWs9kMpmlyfwN4JwgR2Z42PkopD3aRpZR4eXn5MKRLkoTzhnOgdIAfgOM4UErlGGVZbC/e
+      PoZqtcrx9PPzM0sp0ppWkm83TTNnfCSVslwu0Ww2oWkaoijiPsTT0xPH23R7UAJKlZtarYbp
+      dLrjrHQDUcOMQp+PkmdaQbXZbI7ORp1T36l0gG8GNXiI6E5bZrKgZXwkh3gMWf1RqrKEYcin
+      Nkm2bJNwRqPR3udltWKTJEG9Xsd0Os2FLoZhII5jjMdjLu9uI2vsSim0Wq3cLUGQUsI0zaPD
+      bcSTOCfKadAfQHZUmthhWZD4LdEmkyQpTHoRQuDq6gq93q4UeRiGkFLCtu3CFZTVaoXxeMzG
+      T5RHXdchhEC9Xuck/Bgmkwkn/9ufUeRUP0XduyjKG+CHoGka81mllPA8j8uZy+WSq0Ke5/Gm
+      yqKz/pqmQSmFTqeTC7PSNM2tdj11qpO40EUolNvvQ7sRqORZqVRgWRavmjqU3FKIF0URS01S
+      KfmrlaDSAX4QdJLR2LRt23BdF3EcYzqdctfU8zw0P7GytF6vQwgB13W5AZadAyKN/CK3C+mH
+      nirDQtOrFN7Q5y2XSzQaDZimicvLS7y+vuLm5gZxHDMBn96VbqusxmkURUjTlDvsn0UZAv0i
+      VKtV3N7ecoWDDDMMQwRBcDL3l9hkd3d3H84VFTUewzCOdp23oWkaHMeB7/u5W8gwDA7tpJTM
+      qaaqU71eZ6J8rVZjjkUcx7BtG1JKHqf4alm0vAF+GYQQ6PV6cF0398+dz+e4uLj41HIP6hy7
+      rpv7PZ20RbrEFLoUnSSlRlbW+IF3p9M0DZPJhHVNaQ0tkE/CAfCoeBRFWCwW6HQ6XJotwn47
+      hPIG+IWQUuL+/n5H82Y0Gn1anNa27Z3nHdIrzYLCmKLzP0IIKKV2jD8Lkn8UQiAIAsRxzL/L
+      CvlSfuD7PrPfqtUqr6kqZVH+p9A0De12O3fCRVG0czoWBcmxb5cR4zg+2lQiYy4SbrRaLZim
+      efA9s+udKA8pinM1wAilA/xi0Bh1Fl8ZASYnyBoRJaOHnqvr+k7s3+v1MBwOAQCDwQDX19dQ
+      SiEMwxzdUim1s2cgSRI4joNms7mzXqrIdzgn9Kurq7M+sMR50e12MZ3+S/2rVqvcsf0K+v1+
+      zvAMw0Cj0cB6vd6b6O4rl/b7fV7x+vDwAN/3EQQBK9pRb8CyLCRJguFwCKUUHh8fcXFxgSRJ
+      MJ/PMRgMDkpKbsO27UKLL4riHxw3w+i5Cyc/AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

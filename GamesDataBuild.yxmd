@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="5.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Team stats.xls
+Table=`'Weekly Schedules$'`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Week" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="Day" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="V_WString" />
+            <Field name="Date" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="DateTime" />
+            <Field name="F4" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="V_WString" />
+            <Field name="Winner/tie" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="V_WString" />
+            <Field name="F6" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="V_WString" />
+            <Field name="Loser/tie" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="V_WString" />
+            <Field name="PtsW" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="PtsL" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="YdsW" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="TOW" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="YdsL" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="TOL" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+            <Field name="F14" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Weekly Schedules$'`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Team stats.xls
+Table=`TeamData$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tm" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="Conference" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="Division" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="ActiveYears" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="W" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="L" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="T" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="W-L%" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="TopPerfApproxVal" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="TopPerfPass" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="TopPerfRush" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="TopPerfRec" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="TopPerfCoach" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="PlayoffsMade" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="SuperbowlOrLeagueChamp" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="Superbowls" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="ConferenceChamps" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+            <Field name="City" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+            <Field name="State" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNull([Week])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([Week])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="150" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Away Team" type="V_String" size="64" expression="[Winner/tie]" />
+            <FormulaField field="Home Team" type="V_String" size="64" expression="[Loser/tie]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>HT AT</AnnotationText>
+          <DefaultAnnotationText>Away Team=[Winner/tie]
+Home Team=[Loser/tie]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="90" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>IsNull([F6])</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([F6])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="102" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CHRIST~1.STE\AppData\Local\Temp\Engine_12972_9f7961708e5b41b1bb203eb7aaeece7d\Engine_5592_a359b4460df14515960da014491f445b.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="42" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Home Team" type="V_String" size="64" expression="[Winner/tie]" />
+            <FormulaField field="Away Team" type="V_String" size="64" expression="[Loser/tie]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>HT AT</AnnotationText>
+          <DefaultAnnotationText>Home Team=[Winner/tie]
+Away Team=[Loser/tie]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="150" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Home Team" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Tm" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Tm" selected="True" rename="HT Tm" />
+                <SelectField field="Right_Conference" selected="True" rename="HT Conference" />
+                <SelectField field="Right_Division" selected="True" rename="HT Division" />
+                <SelectField field="Right_ActiveYears" selected="True" rename="HT ActiveYears" />
+                <SelectField field="Right_W" selected="True" rename="HT W" />
+                <SelectField field="Right_L" selected="True" rename="HT L" />
+                <SelectField field="Right_T" selected="True" rename="HT T" />
+                <SelectField field="Right_W-L%" selected="True" rename="HT W-L%" />
+                <SelectField field="Right_PlayoffsMade" selected="True" rename="HT PlayoffsMade" />
+                <SelectField field="Right_SuperbowlOrLeagueChamp" selected="True" rename="HT SuperbowlOrLeagueChamp" />
+                <SelectField field="Right_Superbowls" selected="True" rename="HT Superbowls" />
+                <SelectField field="Right_ConferenceChamps" selected="True" rename="HT ConferenceChamps" />
+                <SelectField field="Right_City" selected="True" rename="HT City" />
+                <SelectField field="Right_State" selected="True" rename="HT State" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="TopPerfApproxVal" selected="False" />
+            <SelectField field="TopPerfPass" selected="False" />
+            <SelectField field="TopPerfRush" selected="False" />
+            <SelectField field="TopPerfRec" selected="False" />
+            <SelectField field="TopPerfCoach" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Away Team" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Tm" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Left_Week" selected="True" />
+                <SelectField field="Left_Day" selected="True" />
+                <SelectField field="Left_Date" selected="True" />
+                <SelectField field="Left_F4" selected="False" />
+                <SelectField field="Left_Winner/tie" selected="True" />
+                <SelectField field="Left_F6" selected="False" />
+                <SelectField field="Left_Loser/tie" selected="True" />
+                <SelectField field="Left_Home Team" selected="True" />
+                <SelectField field="Left_Away Team" selected="True" />
+                <SelectField field="Left_PtsW" selected="True" />
+                <SelectField field="Left_PtsL" selected="True" />
+                <SelectField field="Left_YdsW" selected="True" />
+                <SelectField field="Left_TOW" selected="True" />
+                <SelectField field="Left_YdsL" selected="True" />
+                <SelectField field="Left_TOL" selected="True" />
+                <SelectField field="Left_F14" selected="True" rename="Season" />
+                <SelectField field="Left_HT Tm" selected="True" />
+                <SelectField field="Left_HT Conference" selected="True" />
+                <SelectField field="Left_HT Division" selected="True" />
+                <SelectField field="Left_HT ActiveYears" selected="True" />
+                <SelectField field="Left_HT W" selected="True" />
+                <SelectField field="Left_HT L" selected="True" />
+                <SelectField field="Left_HT T" selected="True" />
+                <SelectField field="Left_HT W-L%" selected="True" />
+                <SelectField field="Left_HT PlayoffsMade" selected="True" />
+                <SelectField field="Left_HT SuperbowlOrLeagueChamp" selected="True" />
+                <SelectField field="Left_HT Superbowls" selected="True" />
+                <SelectField field="Left_HT ConferenceChamps" selected="True" />
+                <SelectField field="Left_HT City" selected="True" />
+                <SelectField field="Left_HT State" selected="True" />
+                <SelectField field="Right_Tm" selected="True" rename="AT Tm" />
+                <SelectField field="Right_Conference" selected="True" rename="AT Conference" />
+                <SelectField field="Right_Division" selected="True" rename="AT Division" />
+                <SelectField field="Right_ActiveYears" selected="True" rename="AT ActiveYears" />
+                <SelectField field="Right_W" selected="True" rename="AT W" />
+                <SelectField field="Right_L" selected="True" rename="AT L" />
+                <SelectField field="Right_T" selected="True" rename="AT T" />
+                <SelectField field="Right_W-L%" selected="True" rename="AT W-L%" />
+                <SelectField field="Right_PlayoffsMade" selected="True" rename="AT PlayoffsMade" />
+                <SelectField field="Right_SuperbowlOrLeagueChamp" selected="True" rename="AT SuperbowlOrLeagueChamp" />
+                <SelectField field="Right_Superbowls" selected="True" rename="AT Superbowls" />
+                <SelectField field="Right_ConferenceChamps" selected="True" rename="AT ConferenceChamps" />
+                <SelectField field="Right_City" selected="True" rename="AT City" />
+                <SelectField field="Right_State" selected="True" rename="AT State" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="1146" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\CHRIST~1.STE\AppData\Local\Temp\Engine_12972_9f7961708e5b41b1bb203eb7aaeece7d\Engine_5592_52ce792ceb294838a4b7687189c95f89.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="HT Win" type="Double" size="8" expression="IF [Home Team]==[Winner/tie] THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="ConfGame" type="Double" size="8" expression="IF [HT Conference]==[AT Conference] THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="DivGame" type="Double" size="8" expression="IF ([HT Division]==[AT Division] AND [ConfGame]==1) THEN 1 ELSE 0 ENDIF" />
+            <FormulaField field="ConfHTWin" type="Double" size="8" expression="IF ([ConfGame]==1 and [HT Win]==1) then 1 else 0 endif" />
+            <FormulaField field="DivHTWin" type="Double" size="8" expression="IF ([DivGame]==1 and [HT Win]==1) then 1 else 0 endif" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>HT Win
+ConfGame
+DivGame</AnnotationText>
+          <DefaultAnnotationText>HT Win=IF [Home Team]==[Winner/tie] THEN 1 ELSE 0 ENDIF
+ConfGame=IF [HT Conference]==[AT Conference] THEN 1 ELSE 0 ENDIF
+DivGame=IF ([HT Division]==[AT Division] AND [ConfGame]==1) T...
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="306" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Loser/tie" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Tm" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Tm" selected="False" />
+                <SelectField field="Right_Conference" selected="True" rename="LT Conference" />
+                <SelectField field="Right_Division" selected="True" rename="LT Division" />
+                <SelectField field="Right_ActiveYears" selected="True" rename="LT ActiveYears" />
+                <SelectField field="Right_W" selected="True" rename="LT W" />
+                <SelectField field="Right_L" selected="True" rename="LT L" />
+                <SelectField field="Right_T" selected="True" rename="LT T" />
+                <SelectField field="Right_W-L%" selected="True" rename="LT W-L%" />
+                <SelectField field="Right_PlayoffsMade" selected="True" rename="LT PlayoffsMade" />
+                <SelectField field="Right_SuperbowlOrLeagueChamp" selected="True" rename="LT SuperbowlOrLeagueChamp" />
+                <SelectField field="Right_Superbowls" selected="True" rename="LT Superbowls" />
+                <SelectField field="Right_ConferenceChamps" selected="True" rename="LT ConferenceChamps" />
+                <SelectField field="Right_City" selected="True" rename="LT City" />
+                <SelectField field="Right_State" selected="True" rename="LT State" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="258" y="1146" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\christopher.steinmet\Desktop\resources-master\VisualizeGames.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>VisualizeGames.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="294" y="11" width="645.8193" height="320" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ecf2f2" BorderColor="#2f4f4f" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="354" y="121" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Team stats.xls
+Table=`'Team stats$'`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Rk" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Year" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Tm" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="V_WString" />
+                <Field name="Gamesplayed" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Points" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Yards" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="OffPlays" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Yds/OffPlay" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Turnovers" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="FumblesLost" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="1stDownsbyPenalty" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="1stDowns" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="PassesCompleted" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="PassAttemps" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="PassYds" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="PassTDs" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Int" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="NetYdsPerPassAttempt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Pass1stDowns" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="RushAtt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="RushYds" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="RushTDs" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="RushYardsperAttempt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="Rush1stDowns" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="ScoringDrivePercent" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="TurnoverPercentage" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="Double" />
+                <Field name="EXP" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team stats$'`" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="450" y="193" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Team stats.xls
+Table=`TeamData$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Tm" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="Conference" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="Division" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="ActiveYears" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="W" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="L" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="T" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="W-L%" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="TopPerfApproxVal" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="TopPerfPass" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="TopPerfRush" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="TopPerfRec" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="TopPerfCoach" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="PlayoffsMade" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="SuperbowlOrLeagueChamp" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="Superbowls" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="ConferenceChamps" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="Double" />
+                <Field name="City" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+                <Field name="State" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`TeamData$`" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="630" y="212" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`PlayerTeamConvert$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Team stats.xls
+Table=`PlayerTeamConvert$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="PlayerTeam" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`PlayerTeamConvert$`" type="V_WString" />
+                <Field name="FullTeamName" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`PlayerTeamConvert$`" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="702" y="140" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Team stats.xls
+Table=`'Team Records$'`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Team" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="V_WString" />
+                <Field name="Season" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="Wins" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="Losses" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="Ties" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="W-L%" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="Points" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="PointsOffense" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="PointDifference" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="MarginOfVictory" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="SOS" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="SimpleRatingSystem" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="OffenseiveSimpleRatingSystem" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+                <Field name="DefensiveRatingSystem" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`'Team Records$'`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="594" y="90" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Team stats.xls
+Table=`FantasyStats$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Rk" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="Player" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="V_WString" />
+                <Field name="Team" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="V_WString" />
+                <Field name="Age" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="GamesPlayed" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="GamesStarted" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="PassComp" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="PassAtt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="PassYds" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="PassTD" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="Int" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RushAtt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RushYds" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RushYardsperAtt" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RushTDs" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="Receptions" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RecYds" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="YardsperRec" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="RecTDs" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="FantasyPosition" size="255" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="V_WString" />
+                <Field name="FantasyPts" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="VBD" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="PosRank" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="OvRank" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+                <Field name="Season" source="File: C:\Users\christopher.steinmet\Desktop\resources-master\Team stats.xls|`FantasyStats$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Winner/tie" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Tm" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_HT Tm" selected="False" />
+                <SelectField field="Left_AT Tm" selected="False" />
+                <SelectField field="Right_Tm" selected="False" />
+                <SelectField field="Right_Conference" selected="True" rename="WT Conference" />
+                <SelectField field="Right_Division" selected="True" rename="WT Division" />
+                <SelectField field="Right_ActiveYears" selected="True" rename="WT ActiveYears" />
+                <SelectField field="Right_W" selected="True" rename="WT W" />
+                <SelectField field="Right_L" selected="True" rename="WT L" />
+                <SelectField field="Right_T" selected="True" rename="WT T" />
+                <SelectField field="Right_W-L%" selected="True" rename="WT W-L%" />
+                <SelectField field="Right_PlayoffsMade" selected="True" rename="WT PlayoffsMade" />
+                <SelectField field="Right_SuperbowlOrLeagueChamp" selected="True" rename="WT SuperbowlOrLeagueChamp" />
+                <SelectField field="Right_Superbowls" selected="True" rename="WT Superbowls" />
+                <SelectField field="Right_ConferenceChamps" selected="True" rename="WT ConferenceChamps" />
+                <SelectField field="Right_City" selected="True" rename="WT City" />
+                <SelectField field="Right_State" selected="True" rename="WT State" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="False" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Vertical</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>GamesDataBuild</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
